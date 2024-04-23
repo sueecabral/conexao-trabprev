@@ -90,7 +90,7 @@
     right: 20px; /* Distância da direita */
     padding: 10px 20px;
     background-color: #c23f3f;
-    color: white;
+    color: var(--text-color);
     border: none;
     border-radius: 5px;
     border: 2px solid #fff;
