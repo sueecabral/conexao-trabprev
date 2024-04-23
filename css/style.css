@@ -523,8 +523,10 @@
 .container {
     height: 100vh; /* Ajustando a altura para ocupar a tela inteira */
     background-size: contain; /* Ajustando o tamanho da imagem para 'contain' */
-    margin-top: -10%;
-    margin-bottom: -10%;
+    margin-top: -80px;
+    margin-bottom: -80px;
+    /* margin-top: -18%;
+    margin-bottom: -18%; */
   }
 .btn-01 {
     display: block;
