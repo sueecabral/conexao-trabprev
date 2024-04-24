@@ -22,6 +22,7 @@
     font-weight: bold;
 }
 
+
 .nav{
     max-width: 1280px;
     height: 70px;
@@ -44,6 +45,9 @@
     padding-block: 16px;
     text-decoration: none;
     color: var(--terciary);
+}
+.nav-list a:hover{
+   color: #fff;
 }
 
 
@@ -519,6 +523,7 @@
 .nav-list li:nth-child(3) a{
     transition: 0.5s 0.6s;
 }
+
 /*Event-description*/
 .container {
     height: 100vh; /* Ajustando a altura para ocupar a tela inteira */
