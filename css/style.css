@@ -655,8 +655,8 @@
 
         flex-direction:column;
         justify-content:space-evenly;
-        /* margin-bottom: -10px !important; */
-        align-items: center;
+        align-items: center;    
+        margin: 0; 
         gap: 0;
         pointer-events: none;
         z-index: 1;
