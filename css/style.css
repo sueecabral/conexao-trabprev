@@ -131,14 +131,7 @@
     font-size: 20px;
     line-height: 1.5em;
 }
-.about h3 {
-    background-color: var(--terciary);
-    color: var(--secondary);
-    text-align: center;
-    padding: 3em;
-    font-size: 20px;
-    line-height: 1.5em;
-}
+
 
 /*Schedule Section*/
 #schedule{
@@ -447,7 +440,23 @@
     padding: 1em;
 
 }
+.about-artigos {
+    background-color: var(--terciary);
+    color: var(--secondary);
+    text-align: center;
+    padding: 3em;
+    font-size: 20px;
+    line-height: 1.5em;
+}
 
+.about-artigos h3 {
+    background-color: var(--terciary);
+    color: var(--secondary);
+    text-align: center;
+    padding: 3em;
+    font-size: 20px;
+    line-height: 1.5em;
+}
 
 #footer{
     text-align: center;
