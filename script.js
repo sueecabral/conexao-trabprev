@@ -6,8 +6,8 @@
 
 
 
-// const hamburguer = document.querySelector(".hamburguer");
-// const nav = document.querySelector(".nav");
+const hamburguer = document.querySelector(".hamburguer");
+const nav = document.querySelector(".nav");
 
 // hamburguer.addEventListener("click", () => {
 //   nav.classList.toggle("active");
@@ -21,28 +21,20 @@
 //   }
 // });
 
-
-
-const hamburguer = document.querySelector(".hamburguer");
-const nav = document.querySelector(".nav");
-
 hamburguer.addEventListener("click", () => {
   nav.classList.toggle("active");
-  
+
   if (nav.classList.contains("active")) {
-    // Desativar scroll na página principal quando o menu estiver ativo
+    // Adicionar classe "menu-ativo" ao body
+    document.body.classList.add("menu-ativo");
+
+    // Desativar scroll da página
     document.body.style.overflow = 'hidden';
-    // Adicionar event listener para impedir o scroll na página principal
-    nav.addEventListener('scroll', preventScroll);
   } else {
-    // Ativar scroll na página principal quando o menu estiver fechado
+    // Remover classe "menu-ativo" do body
+    document.body.classList.remove("menu-ativo");
+
+    // Ativar scroll da página
     document.body.style.overflow = '';
-    // Remover event listener quando o menu estiver fechado
-    nav.removeEventListener('scroll', preventScroll);
   }
 });
-
-// Função para impedir o scroll na página principal quando o menu estiver ativo
-function preventScroll(event) {
-  event.stopPropagation();
-}

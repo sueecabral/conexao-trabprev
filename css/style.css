@@ -633,16 +633,11 @@
     .btn{
         opacity: 1;
     }
-    .nav.active li{
-        margin-bottom: 2px !important; /*ver isso*/
-    }
-    .nav.active ul{
-        margin-bottom: 0;
-    }
+    
     .hamburguer{
         display: block;
         z-index: 3;
-        padding-bottom: 25px;
+        /* padding-bottom: 25px; */
     }
     .nav-list{
         position:absolute;
@@ -656,12 +651,13 @@
         transition: 1s ease-out;
 
         flex-direction:column;
-        justify-content: space-around;
+        justify-content:space-around;
         align-items: center;
         gap: 0;
         pointer-events: none;
         z-index: 1;
     }
+    
     .nav.active .nav-list{
         clip-path: circle(1500px at 10% -70%);
         pointer-events: all;
