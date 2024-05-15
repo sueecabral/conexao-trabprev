@@ -650,7 +650,7 @@
         transition: 1s ease-out;
 
         flex-direction:column;
-        /* justify-content: space-around; */
+        justify-content: space-around;
         align-items: center;
         gap: 0;
         pointer-events: none;
@@ -661,10 +661,8 @@
         pointer-events: all;
     }
     .nav-lis a{
-        /* font-size: 24px; */
+        font-size: 24px;
         font-size: 15px;
-        padding-top: -10% !important ;/*adicionei hoje 02/5*/
-        margin-top: -20%;/*adicionei hoje 02/5*/
         opacity: 0;
     }
     .nav.active .nav-list a{
@@ -807,3 +805,6 @@
     .sponsors-2 h3{
         font-size: 25px;
     }
+
+    /*O menu hamburguer esta fixo sem scrollar mas não aparece todo, falta o contato.*/
+    /*02/05*/
