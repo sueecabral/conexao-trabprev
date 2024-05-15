@@ -633,6 +633,12 @@
     .btn{
         opacity: 1;
     }
+    .nav.active li{
+        margin-bottom: 2px !important; /*ver isso*/
+    }
+    .nav.active ul{
+        margin-bottom: 0;
+    }
     .hamburguer{
         display: block;
         z-index: 3;
