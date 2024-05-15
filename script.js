@@ -6,8 +6,8 @@
 
 
 
-const hamburguer = document.querySelector(".hamburguer");
-const nav = document.querySelector(".nav");
+// const hamburguer = document.querySelector(".hamburguer");
+// const nav = document.querySelector(".nav");
 
 // hamburguer.addEventListener("click", () => {
 //   nav.classList.toggle("active");
@@ -21,20 +21,18 @@ const nav = document.querySelector(".nav");
 //   }
 // });
 
+const hamburguer = document.querySelector(".hamburguer");
+const nav = document.querySelector(".nav");
+
 hamburguer.addEventListener("click", () => {
   nav.classList.toggle("active");
-
+  
+  // Verificar se o menu hamburguer está ativo
   if (nav.classList.contains("active")) {
-    // Adicionar classe "menu-ativo" ao body
-    document.body.classList.add("menu-ativo");
-
-    // Desativar scroll da página
-    document.body.style.overflow = 'hidden';
+    // Adicionar classe para ocultar overflow
+    document.body.classList.add('menu-active');
   } else {
-    // Remover classe "menu-ativo" do body
-    document.body.classList.remove("menu-ativo");
-
-    // Ativar scroll da página
-    document.body.style.overflow = '';
+    // Remover classe para restaurar o overflow padrão
+    document.body.classList.remove('menu-active');
   }
 });

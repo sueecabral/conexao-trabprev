@@ -630,6 +630,9 @@
 }
 
 @media (max-width: 490px){
+    .menu-active {
+        overflow: hidden;
+      }
     .btn{
         opacity: 1;
     }
@@ -657,7 +660,6 @@
         pointer-events: none;
         z-index: 1;
     }
-    
     .nav.active .nav-list{
         clip-path: circle(1500px at 10% -70%);
         pointer-events: all;
