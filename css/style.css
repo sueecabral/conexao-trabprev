@@ -440,6 +440,14 @@
     padding: 1em;
 
 }
+.about-artigos h2 {
+    background-color: var(--terciary);
+    color: var(--secondary);
+    text-align: center;
+    padding: 1em;
+    font-size: 30px;
+    line-height: 1.5em;
+}
 .about-artigos {
     background-color: var(--terciary);
     color: var(--secondary);
