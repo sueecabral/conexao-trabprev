@@ -440,7 +440,7 @@
     padding: 1em;
 
 }
-#artigosjuridicos{
+/* #artigosjuridicos{
     height: 400px;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7 )),
     url("../img/artigo-juridico-img.jpg");
@@ -450,8 +450,7 @@
     align-items: center;
     justify-content: space-around;
     color: var(--primary);
-    /*margin-bottom: 3em;   */
-}
+} */
 
 .about-artigos h2 {
     background-color: var(--terciary);
@@ -861,6 +860,29 @@
     .sponsors-2 h3{
         font-size: 25px;
     }
+    /*Artigos juridicos*/
+    /* #artigos-juridicos{
+        flex-direction: column;
+        height: auto;
+    }
 
-    /*O menu hamburguer esta fixo sem scrollar mas não aparece todo, falta o contato.*/
-    /*02/05*/
+    
+ #artigosjuridicos{
+    order: 2; /*Muda a ordem dos elementos*/
+    /* flex-direction: column;
+    max-width: 90%;
+ }
+ #artigosjuridicos i{
+    margin: .2em 0;
+ }
+ #artigosjuridicos{
+    order: 1;
+    max-width: 100%;
+ }
+ #artigosjuridicos h3{
+    margin-bottom: 0;
+ }
+ #aritgosjuridicos p{
+    display: none;
+ }
+     */
