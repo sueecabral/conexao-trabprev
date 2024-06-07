@@ -89,3 +89,20 @@
 #schedule-3{
     background-image: url(../img/adv89.jpg);
 }
+@media (max-width: 790px){
+
+    #schedule h2{
+        padding-top: 15%;
+        font-size: 2em;
+    }
+     .schedules{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        padding: 2em;
+     }
+     .schedule{
+        max-width: 100%;
+        margin-bottom: 2em;
+     }
+}
