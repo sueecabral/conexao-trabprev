@@ -105,8 +105,6 @@
   }
 
 
-
-
 .btn{
     background-color: var(--primary);
     color: var(--secondary);
@@ -192,7 +190,7 @@
 #schedule-3{
     background-image: url(../img/adv89.jpg);
 }
-#schedule-4{
+/* #schedule-4{
     background-image: url(../img/adv_m\ \(5\).jpg);
 }
 #schedule-5{
@@ -209,7 +207,7 @@
 }
 #schedule-9{
     background-image: url(../img/adv_m\ \(5\).jpg);
-}
+} */
 
 #btn-programacao{
     display: flex;

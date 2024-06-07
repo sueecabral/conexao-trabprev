@@ -1,0 +1,91 @@
+:root{
+    --primary: #f4f4f4;
+    --secondary: #333366;
+    --terciary: rgb(34, 34, 34);
+    /* --secondary: #64090e; */
+    --terciary:#bed5dc;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-terciary: #5d5d5d;
+}
+
+* {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: var(--secondary);
+    padding-inline: 16px;
+    color: var(--terciary);
+    font-weight: bold;
+}
+/*Schedule Section*/
+.calendario-img{
+  width: 35px;
+  height: 35px;
+}
+#schedule{
+    background-color: var(--secondary);
+}
+#schedule h2{
+    background-color: var(--secondary);
+    font-size: 3em;
+    text-align: center;
+    padding: 1em;
+    font-weight: 500;
+    color: var(--primary);
+}
+#schedule h3{
+    background-color: var(--secondary);
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+    font-weight: 500;
+    color: var(--primary);
+}
+.schedule li{
+    font-weight:550;
+}
+.schedules{
+    background-color: var(--terciary);
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    padding-top: 5%;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    border-radius: 10px;
+}
+
+.schedule{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+    line-height:1.5em ;
+    color: var(--secondary);
+}
+
+.schedule .schedule-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position:center;
+    margin-bottom: 1em;;
+}
+
+#schedule-1{
+    background-image: url(../img/adv_m\ \(3\).jpg);
+}
+#schedule-2{
+    background-image: url(../img/adv_m\ \(5\).jpg);
+}
+#schedule-3{
+    background-image: url(../img/adv89.jpg);
+}
