@@ -153,10 +153,10 @@
     background-image: url(../img/Sérgio-Torres.jpeg);
 }
 #guest-8{
-    background-image: url(../img/anonimo.jpg);
+    background-image: url(../img/bruno-baptista.jpeg);
 }
 #guest-9{
-    background-image: url(../img/anonimo.jpg);
+    background-image: url(../img/marcia-windsor.jpeg);
 }
 #guest-10{
     background-image: url(../img/Mauricio-Hands.jpg);
@@ -258,7 +258,7 @@
 
 #footer{
     text-align: center;
-    background: var(--text-terciary);
+    background: rgb(34, 34, 34);
     color: #fff;
     height: 280px;
     display: flex;
