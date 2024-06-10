@@ -463,7 +463,7 @@
     padding: 1em;
 
 }
-/*Patrocinadores*/
+/*Patrocinadores Premium*/
 #sponsors-2 h3{
     background-color: var(--secondary);
     font-size: 2em;
@@ -483,12 +483,48 @@
     background-color: var(--terciary);
 }
 
-#sponsors-2 img{
+/* #sponsors-2 img{
     width: 200px;
     height: 200px;
     padding: 1em;
+} */
+.varjal-img{
+    width: 200px;
+    height: 88px;
+    padding: 1em;
 
 }
+.galamba-img{
+    width: 200px;
+    height: 113px;
+    padding: 1em;
+
+}
+/*Patrocinadores*/
+#sponsors-3 h3{
+    background-color: var(--secondary);
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: 500;
+    color: var(--primary);
+}
+#sponsors-3 h4 {
+
+    font-size: 2em;
+
+}
+.sponsors-3{
+    padding: 4em;
+    text-align: center;
+    background-color: var(--terciary);
+}
+
+#sponsors-3 img{
+    width: 200px;
+    height: 200px;
+    padding: 1em;
+} 
 /* #artigosjuridicos{
     height: 400px;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7 )),
