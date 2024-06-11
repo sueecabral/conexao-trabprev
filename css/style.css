@@ -520,11 +520,7 @@
     background-color: var(--terciary);
 }
 
-#sponsors-3 img{
-    width: 200px;
-    height: 200px;
-    padding: 1em;
-} 
+
 /* #artigosjuridicos{
     height: 400px;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7 )),
