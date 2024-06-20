@@ -488,18 +488,23 @@
     height: 200px;
     padding: 1em;
 } */
+.comissao-oab-img{
+    width: 150px;
+    height: 150px;
+    padding: 1em;
+
+}
 .varjal-img{
     width: 200px;
     height: 88px;
     padding: 1em;
-
 }
 .galamba-img{
     width: 200px;
     height: 113px;
     padding: 1em;
-
 }
+
 /*Patrocinadores*/
 #sponsors-3 h3{
     background-color: var(--secondary);
