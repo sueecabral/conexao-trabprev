@@ -342,7 +342,7 @@
     background-image: url(../img/Pamplona.jpg);
 }
 #guest-2{
-    background-image: url(../img/Danilo\ Gaspar.jpg);
+    background-image: url(../img/Antonio-fabricio.jpeg);
 }
 #guest-3{
     background-image: url(../img/Rafaela\ Sionek.jpeg);
@@ -350,66 +350,9 @@
 #guest-4{
     background-image: url(../img/Ricardo\ Calcini.jpg);
 }
-#guest-5{
-    background-image: url(../img/Pugliese.jpg);
-}
-#guest-6{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-7{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-8{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-9{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-10{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-11{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-12{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-13{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-14{
-    background-image: url(../img/Fábio\ Farias.png);
-}
-#guest-15{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-16{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-17{
-    background-image: url(../img/Maura.jpeg);
-}
-#guest-18{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-19{
-    background-image: url(../img/João\ Batista\ Lazzari.png);
-}
-#guest-20{
-    background-image: url(../img/Sergio\ Geromes\ .jpg);
-}
-#guest-21{
-    background-image: url(../img/Adriano_Cabral.png);
-}
-#guest-22{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-23{
-    background-image: url(../img/anonimo.jpg);
-}
-#guest-24{
-    background-image: url(../img/anonimo.jpg);
-}
+
+
+
 /*Call to action section*/
 #cta{
     height: 400px;
@@ -503,6 +446,12 @@
     width: 200px;
     height: 113px;
     padding: 1em;
+}
+.nissan-img{
+    width: 200px;
+    height: 113px;
+    padding: 1em;
+
 }
 
 /*Patrocinadores*/
