@@ -426,11 +426,6 @@
     background-color: var(--terciary);
 }
 
-/* #sponsors-2 img{
-    width: 200px;
-    height: 200px;
-    padding: 1em;
-} */
 .comissao-oab-img{
     width: 150px;
     height: 150px;
@@ -451,7 +446,11 @@
     width: 200px;
     height: 113px;
     padding: 1em;
-
+}
+.cabral-logo{
+    width: 150px;
+    height: 150px;
+    padding: 1em;
 }
 
 /*Patrocinadores*/
@@ -473,20 +472,6 @@
     text-align: center;
     background-color: var(--terciary);
 }
-
-
-/* #artigosjuridicos{
-    height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7 )),
-    url("../img/artigo-juridico-img.jpg");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: var(--primary);
-} */
-
 
 .about-artigos {
     background-color: var(--secondary);
@@ -528,7 +513,7 @@
     border: none;
     border-radius: 20px;
     padding: 15px;
-    cursor: pointer;/*aprece uma mãozinha no cursor no lugar da seta*/
+    cursor: pointer;
     opacity: 0.8;
     font-weight: bold;
 }
@@ -633,22 +618,17 @@
 
 /*Event-description*/
 .container {
-    height: 100vh; /* Ajustando a altura para ocupar a tela inteira */
+    height: 100vh; 
     width: 100%;
-    background-size: contain; /* Ajustando o tamanho da imagem para 'contain' */
+    background-size: contain; 
     background-color: var(--secondary);
-
-    /* margin-top: -200px;
-    margin-bottom: -200px; */
-    /* margin-top: -18%;
-    margin-bottom: -18%; */
   }
 .btn-01 {
     display: block;
     padding: 8px 16px;
     font-size: 14px;
-    top: 50px; /* Ajustes para dispositivos móveis */
-    right:200px; /* Ajustes para dispositivos móveis */
+    top: 50px; 
+    right:200px; 
   }
 
 
@@ -685,7 +665,7 @@
     padding: 2em 0;
  }
  #address{
-    order: 2; /*Muda a ordem dos elementos*/
+    order: 2; 
     flex-direction: column;
     max-width: 90%;
  }
@@ -702,9 +682,7 @@
  #about-location p{
     display: none;
  }
- /*Schedule - programação*/
-
-
+ 
  /*Guests section*/
  .guests{
     flex-direction: column;
@@ -747,7 +725,6 @@
     .hamburguer{
         display: block;
         z-index: 3;
-        /* padding-bottom: 25px; */
     }
     .nav-list{
         position:absolute;
@@ -755,7 +732,7 @@
         left:0;
         width: 100vw;
         height: 100vh;
-        margin-top: 5px;/*eram 10px*/
+        margin-top: 5px;
         background:var(--secondary);
         clip-path: circle(100px at 10% -65px);
         transition: 1s ease-out;
@@ -810,13 +787,10 @@
 
     /*Event-description*/
     .container {
-        height: 100vh; /* Ajustando a altura para ocupar a tela inteira */
+        height: 100vh; 
         width: 100%;
-        background-size: contain; /* Ajustando o tamanho da imagem para 'contain' */
+        background-size: contain; 
         background-color: var(--secondary);
-
-        /* margin-top: -200px;
-        margin-bottom: -200px; */
         margin-top: -18%;
         margin-bottom: -15%;
       }
@@ -824,8 +798,8 @@
         display: block;
         padding: 8px 16px;
         font-size: 14px;
-        top: 70px; /* Ajustes para dispositivos móveis */
-        right:20px; /* Ajustes para dispositivos móveis */
+        top: 70px; 
+        right:20px;
       }
 
 
@@ -858,7 +832,7 @@
         padding: 2em 0;
      }
      #address{
-        order: 2; /*Muda a ordem dos elementos*/
+        order: 2; 
         flex-direction: column;
         max-width: 90%;
      }
@@ -927,29 +901,7 @@
     .sponsors-2 h3{
         font-size: 25px;
     }
-    /*Artigos juridicos*/
-    /* #artigos-juridicos{
-        flex-direction: column;
-        height: auto;
-    }
+    
 
     
- #artigosjuridicos{
-    order: 2; /*Muda a ordem dos elementos*/
-    /* flex-direction: column;
-    max-width: 90%;
- }
- #artigosjuridicos i{
-    margin: .2em 0;
- }
- #artigosjuridicos{
-    order: 1;
-    max-width: 100%;
- }
- #artigosjuridicos h3{
-    margin-bottom: 0;
- }
- #aritgosjuridicos p{
-    display: none;
- }
-     */
+ 
