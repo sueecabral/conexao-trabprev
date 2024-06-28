@@ -481,16 +481,6 @@
     display: block;
 }
 
-/* .btn-read-more {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-} */
 
 .btn-read-more {
     display: inline-block;
@@ -512,6 +502,9 @@
 
     .about-artigos p {
         display: block;
+    }
+    .about-artigos h2 {
+        font-size: 400px;
     }
 }
 
