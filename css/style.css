@@ -473,6 +473,49 @@
     background-color: var(--terciary);
 }
 
+.about-artigos p {
+    display: none;
+}
+
+.about-artigos .show {
+    display: block;
+}
+
+/* .btn-read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.btn-read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #c23f3f;
+    color: var(--text-color);
+    font-weight: 600;
+    border: 2px solid #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .btn-read-more {
+        display: none;
+    }
+
+    .about-artigos p {
+        display: block;
+    }
+}
+
+
 .about-artigos {
     background-color: var(--secondary);
     color: var(--primary);
