@@ -58,8 +58,6 @@
     border-radius: 10px;
 }
 
-
-
 .schedule{
     text-align: center;
     display: flex; 
@@ -78,10 +76,15 @@
     background-position:center;
     margin-bottom: 1em;;
 }
-.schedule li{
+.schedule li {
     font-weight:550;
     text-align: justify;
 }
+.schedule p {
+    font-weight:550;
+    
+}
+
 
 /* #schedule-1{
     background-image: url(../img/adv_m\ \(3\).jpg);
